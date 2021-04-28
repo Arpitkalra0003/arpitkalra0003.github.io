@@ -1,0 +1,130 @@
+.hero {
+  background-color: #000;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+
+  @media (min-width: 991px) {
+    padding: 50px;
+  }
+
+  @media (max-width: 1024px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: inherit;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+
+    @media (max-width: 991px) {
+      flex-wrap: wrap;
+      margin-top: 45px;
+    }
+
+    .content-text {
+      z-index: 50;
+    }
+
+    .profile {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 5%;
+      background-color: #000;
+
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+
+      .Typewriter span {
+        color: #fff;
+        font-size: 50px;
+        font-family: Poppins;
+        font-weight: 700;
+
+        &.Typewriter__cursor {
+          color: #DFFF00;
+        }
+      }
+
+      @media (max-width: 991px) {
+        .glitch {
+          font-size: 40px;
+          line-height: 40px;
+          margin-bottom: 20px;
+        }
+
+        .Typewriter span {
+          font-size: 20px;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .glitch {
+          font-size: 40px;
+          line-height: 40px;
+        }
+
+        .Typewriter span {
+          font-size: 20px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1500px) {
+        .glitch {
+          font-size: 70px;
+          line-height: 70px;
+        }
+      }
+
+      .hover-button {
+        margin-top: 20px;
+      }
+
+      @media (max-width: 991px) {
+        margin: auto;
+      }
+
+      .float-image {
+        &.move-up {
+            animation: up 5s infinite  alternate;
+        }
+
+        &.move-down {
+            animation: down 5s infinite  alternate;
+        }
+
+        object-fit: cover;
+        position: absolute;
+        width: 50px;
+
+        @media (max-width: 991px) {
+          width: 10px;
+        }
+
+        @keyframes up {
+          0% { transform: translateY(0); }
+          100% { transform: translateY(-50px); }
+        }
+
+        @keyframes down {
+          0% { transform: translateY(0); }
+          100% { transform: translateY(50px); }
+        }
+      }
+    }
+
+    .scroll-indicator {
+      color: #ffffff;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+}

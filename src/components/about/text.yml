@@ -1,0 +1,10 @@
+title: About me
+subtitle: I'm a frontend web developer
+
+remote:
+  <p>I'm a tech enthusiast based in Rajasthan (India), working since 2018. I consider myself an eager learner and very self directed, and UI work empowers me to be more productive. </p>
+
+profile:
+  <p>I've been using <a href="https://reactjs.org/">React.JS</a> since 2018. React and its ecosystem are always my default stack to develop anything and I usually add some spices like <a href="https://docs.docker.com/compose/">Docker</a>, <a a href="https://nodejs.org/en/">Node</a> or <a href="https://aws.amazon.com">AWS</a>. I always try and solve problems with the best suited tool, and learning how to use a new one is one of the most fun parts of my job.</p>
+  <p>I've helped to grow products and teams in very different positions. I worked as a Frontend Developer, <a href="https://www.infovision.com/">InfoVision</a></p>
+  <p>I like to follow methodologies such as <a href="https://www.scrum.org">Scrum</a>, working in controlled enviroments and having the opportunity to decide and make a big impact in every project I touch.</p>

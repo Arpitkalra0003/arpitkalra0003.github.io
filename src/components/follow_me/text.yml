@@ -1,0 +1,20 @@
+title: Follow me
+subtitle: Social media
+intro: If what you read so far sounds good to you, you can continue knowing me checking out my social media.
+
+social_media:
+
+  github:
+    title: Github
+    url: https://github.com/Arpitkalra0003
+    text:  Playing with new technologies, contributing to open source repos and working on pet projects are among my hobbies. I publish all my code in Github in case anyone wants to benefit from it.
+
+  linkedin:
+    title: Linkedin
+    url: https://www.linkedin.com/in/arpitkalra0003/
+    text: My professional profile, as a substitute of the classic CV. If you are curious about the places I worked on this is where you have to look.
+
+  twitter:
+    title: Twitter
+    url: https://twitter.com/arpitkalra0003
+    text: I'm always on learning mode and Twitter is my way to discover new topics to focus on. I share anything I consider interesting in my account so others can do the same.
